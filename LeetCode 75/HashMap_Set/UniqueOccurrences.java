@@ -1,6 +1,3 @@
-public class UniqueOccurrences {
-    
-}
 class UniqueOccurrences {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> hMap = new HashMap<>();
