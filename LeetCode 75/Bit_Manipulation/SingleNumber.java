@@ -3,7 +3,6 @@ class SingleNumber {
         int singleNum = 0;
         for(int num : nums)
             singleNum ^= num;
-
         return singleNum;
     }
 }
